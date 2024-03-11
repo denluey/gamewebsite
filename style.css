@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: pix;
+	src: url(Ac437_ACM_VGA_8x14.ttf);
+}
+
+body {
+	background: blue;
+	color: white;
+	font-family: pix;
+}
+p {
+	font-size: 35vh;
+}
+
+.firstbox img {
+
+	border: 4px solid;
+	border-color: black;
+	background-color: black;
+}
+
+.firstbox, .secondbox {
+
+	background-color: hotpink;
+	margin: 10px;
+	padding: 5px;
+	border: 4px solid;
+}
